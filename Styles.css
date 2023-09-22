@@ -37,13 +37,16 @@ a {
     color: #0000FF;
 }
 p {
-    margin: 0 0 7px 20px;
+    margin: 0 0 5px 30px;
     padding: 10px;
     font-size:xx-small;
     width: 420px;
 }
+legend {
+    font-size: large;
+}
 /* logo */
-.IC {
+.logo {
     width: 90px;
     height: 90px;
 }
@@ -69,32 +72,32 @@ form {
 
 /* Box mismo aka. Fieldset */
 .box {
-    margin: 5px 20px 5px 20px;
-    width: 400px;
+    margin: 10px 30px 5px 30px;
+    min-width: 400px;
     height: 420px;
-    min-height: 420px;
+    max-height: 420px;
     padding: 2rem 0;
     border-radius: 6px;
-    border: 1.5px solid black;
+    border: 0.5px none black;
     background-color: rgb(243, 244, 247);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* Text before input text */
 label {
     display: block;
-    margin: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 20px;
     font-family: Tahoma;
 }
 /* input */
 input{
-    margin: 10px 10px 10px 10px;
-    padding: 0 0 0 5px;
-    width: 440px;
+    margin: 10px 0px 10px 20px;
+    padding: 10px;
+    min-width: 400px;
     height: 40px;
 }
 
 input:placeholder-shown {
     text-align: left;
-    padding-left: 5px;
 }
 
 /* submit button*/
